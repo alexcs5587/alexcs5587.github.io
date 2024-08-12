@@ -8,6 +8,7 @@ import Experience from './Experience';
 import Projects from './Projects';
 import Contact from './Contact';
 import useFullHeightSection from '../../hooks/useFullHeightSection';
+import WordFlipper from '../../components/common/wordFlipper';
 
 
 function Home() {
@@ -23,7 +24,7 @@ function Home() {
     }, []);
 
     const particlesLoaded = (container) => {
-        console.log(container);
+        // console.log(container);
     };
 
     return (
@@ -42,7 +43,15 @@ function Home() {
                                 Hello, I'm <span className="text-rose-500">Alex Chui</span>.
                             </h2>
                             <p className="text-lg md:text-xl">
-                                I am an in-house developer with 3+ years of experience in developing applications.
+                                I am an in-house developer with 3+ years of experience in developing applications with&nbsp;&nbsp;
+                                <WordFlipper
+                                    words={['VBA', 'ReactJS', 'Python', 'OpenAI']}
+                                    interval={3000}
+                                    textColor="text-rose-500"
+                                    fontSize="text-3xl"
+                                    fontWeight="font-base"
+                                />
+
                             </p>
                         </div>
                     </div>
