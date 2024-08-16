@@ -27,7 +27,7 @@ function PortfolioCard({ portfolioCardData }) {
             <div className="flex-grow px-4 mb-2">
                 <h5 className="my-2 text-lg font-bold">{portfolioCardData.title}</h5>
                 <div className="flex flex-wrap">{ProjectLanguage}</div>
-                <p className="mb-3 text-sm text-gray-700">{portfolioCardData.text}</p>
+                <p className="text-sm text-gray-700">{portfolioCardData.text}</p>
             </div>
             <div className="px-4 mt-auto">
                 {portfolioCardData.webLink && (

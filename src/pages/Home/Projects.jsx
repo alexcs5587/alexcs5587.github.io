@@ -11,7 +11,7 @@ function Projects() {
     <section
       id="projects"
       ref={sectionRef}
-      className="relative flex flex-col justify-center w-full py-8 bg-white md:py-0 "
+      className="relative flex flex-col justify-center w-full py-8 bg-white"
     >
       <div className="flex items-center h-full max-w-screen-xl px-4 mx-auto">
         <div className="w-full">

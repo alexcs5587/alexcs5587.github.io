@@ -5,7 +5,7 @@ function Contact() {
     return (
         <section
             id="contact"
-            className="relative text-white bg-gray-800 md:py-12">
+            className="relative text-white bg-custom-radial md:py-12">
             <div className="flex flex-col items-center justify-center max-w-screen-xl gap-4 px-4 py-8 mx-auto md:gap-8 md:flex-row">
                 <ContactItem
                     icon="bi-github"

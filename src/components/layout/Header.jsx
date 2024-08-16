@@ -58,7 +58,7 @@ function Header() {
         "flex items-center justify-between max-w-screen-xl mx-auto transition-all duration-300 ease px-4",
         {
             "py-2 text-black": scrolled,
-            "py-6 text-white": !scrolled,
+            "py-4 text-white": !scrolled,
         }
     );
 
@@ -73,50 +73,65 @@ function Header() {
     return (
         <header ref={headerRef} className={headerClasses}>
             <nav className={navClasses}>
-                <div>
-                    <div className="text-lg font-bold">Alex Chui</div>
-                    <div className="text-xs">Senior Application Developer</div>
-                </div>
-                <div className="hidden md:block">
-                    <ul className="flex gap-4">
-                        {sections.map((section) => (
-                            <li
-                                key={section.id}
-                                className={`ml-4 cursor-pointer ${activeSection !== section.id ? 'hover:text-rose-500' : 'text-rose-500'
+                <div className="flex items-center justify-between w-full">
+                    <div>
+                        <div className="text-lg font-bold">Alex Chui</div>
+                        <div className="text-xs">Senior Application Developer</div>
+                    </div>
+                    <div className="hidden md:block">
+                        <ul className="flex gap-4">
+                            {sections.map((section) => (
+                                <li
+                                    key={section.id}
+                                    className={`ml-4 cursor-pointer ${activeSection !== section.id
+                                        ? "hover:text-rose-500"
+                                        : "text-rose-500"
+                                        }`}
+                                >
+                                    <Link
+                                        to={section.id}
+                                        smooth={true}
+                                        duration={600}
+                                        offset={getOffset()}
+                                    >
+                                        {section.name}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                    <div className="md:hidden">
+                        <button
+                            onClick={() => setMenuOpen(!menuOpen)}
+                            className="relative flex items-center justify-center w-6 h-6 text-2xl"
+                        >
+                            <span
+                                className={`absolute inset-0 flex items-center justify-center transition-opacity duration-300 ease-in-out ${menuOpen ? "opacity-0" : "opacity-100"
                                     }`}
                             >
-                                <Link
-                                    to={section.id}
-                                    smooth={true}
-                                    duration={600}
-                                    offset={getOffset()}
-                                >
-                                    {section.name}
-                                </Link>
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-                <div className="md:hidden">
-                    <button onClick={() => setMenuOpen(!menuOpen)} className="relative w-6 h-6 text-2xl">
-                        <span className={`absolute inset-0 transition-opacity duration-300 ease-in-out ${menuOpen ? 'opacity-0' : 'opacity-100'}`}>
-                            ☰
-                        </span>
-                        <span className={`absolute inset-0 transition-opacity duration-300 ease-in-out ${menuOpen ? 'opacity-100' : 'opacity-0'}`}>
-                            ✕
-                        </span>
-                    </button>
+                                ☰
+                            </span>
+                            <span
+                                className={`absolute inset-0 flex items-center justify-center transition-opacity duration-300 ease-in-out ${menuOpen ? "opacity-100" : "opacity-0"
+                                    }`}
+                            >
+                                ✕
+                            </span>
+                        </button>
+                    </div>
                 </div>
             </nav>
             <div
-                className={`md:hidden bg-white shadow-lg overflow-hidden transition-all duration-300 ease-in-out ${menuOpen ? 'max-h-64' : 'max-h-0'
+                className={`md:hidden bg-white shadow-lg overflow-hidden transition-all duration-300 ease-in-out ${menuOpen ? "max-h-64" : "max-h-0"
                     }`}
             >
                 <ul className="flex flex-col items-center py-4">
                     {sections.map((section) => (
                         <li
                             key={section.id}
-                            className={`py-2 cursor-pointer ${activeSection !== section.id ? 'hover:text-rose-500' : 'text-rose-500'
+                            className={`py-2 cursor-pointer ${activeSection !== section.id
+                                ? "hover:text-rose-500"
+                                : "text-rose-500"
                                 }`}
                         >
                             <Link

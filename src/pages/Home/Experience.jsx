@@ -10,7 +10,7 @@ function Experience() {
         <section
             id="experience"
             ref={sectionRef}
-            className="relative flex flex-col justify-center w-full py-8 text-white bg-gray-800 md:py-0 "
+            className="relative flex flex-col justify-center w-full py-8 text-white bg-custom-radial md:py-0 "
         >
             <div className="max-w-6xl px-4 mx-auto">
                 <div className="mb-8 text-center md:mb-12">

@@ -41,3 +41,7 @@ body {
     padding: var(--spacing-unit);
     margin-bottom: var(--spacing-unit);
 }
+
+.bg-custom-radial {
+    @apply bg-[radial-gradient(ellipse_at_bottom,#1B2735_0%,#0c0e14_100%)];
+}

@@ -33,7 +33,7 @@ const WordFlipper = ({
     }, [words]);
 
     return (
-        <span className={`inline-flex items-center overflow-hidden ${fontSize} ${fontWeight}`} style={{ width, verticalAlign: 'baseline' }}>
+        <span className={`inline-flex items-center ${fontSize} ${fontWeight}`} style={{ width, verticalAlign: 'baseline' }}>
             <AnimatePresence mode="wait">
                 <motion.span
                     key={currentIndex}
