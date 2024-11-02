@@ -16,7 +16,7 @@ function AboutMe() {
                         <div className="w-24 h-1 mx-auto mt-4 rounded-full bg-rose-500 lg:mb-12"></div>
                         <div className="mt-5 mx-5 lg:text-[0.9rem] lg:text-base text-left text-gray-500">
                             <p className="">
-                                As a results-driven Application Developer with 3+ years of experience, I specialize in utilizing the latest technologies to enhance business processes and drive efficiency. Throughout my career, I have designed and developed various AI-powered, data-driven applications that have optimized operations, improved decision making and saved organizations significant time and costs.
+                                As a results-driven developer with 3+ years of experience, I specialize in utilizing the latest technologies to enhance business processes and drive efficiency. Throughout my career, I have designed and developed various AI-powered, data-driven applications that have optimized operations, improved decision making and saved organizations significant time and costs.
                             </p>
                             <p className="mt-8">
                                 In my current role, I supervise a small team of developers and am responsible for the full development lifecycle. Through active engagement with stakeholders and mentoring junior developers, I ensure projects are on track and meet requirements. With over 3 years of hands-on experience leading the successful delivery of more than 10 business-critical applications, I have demonstrated an ability to strategically design and flawlessly execute projects that drive real value.

@@ -2,7 +2,7 @@ const experienceData = [
     {
         company: "Central Business Information Limited",
         companyTranslation: "滙華商業資訊有限公司",
-        position: "Senior Application Developer",
+        position: "Analyst Programmer",
         duration: "Dec 2020 - Present",
         responsibilities: [
             "Build robotic process automation systems to reduce over 90% manual operations and significantly increase productivity",

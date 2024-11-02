@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Link } from 'react-scroll';
 import classNames from "classnames";
-
+import experienceData from "../../data/experienceData";
 const DESKTOP_HEADER_HEIGHT = 60; // Adjust this value if needed
 
 const sections = [
@@ -76,7 +76,7 @@ function Header() {
                 <div className="flex items-center justify-between w-full">
                     <div>
                         <div className="text-lg font-bold">Alex Chui</div>
-                        <div className="text-xs">Senior Application Developer</div>
+                        <div className="text-xs">{experienceData[0].position}</div>
                     </div>
                     <div className="hidden md:block">
                         <ul className="flex gap-4">

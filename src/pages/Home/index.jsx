@@ -49,7 +49,7 @@ function Home() {
                             <span className="whitespace-nowrap">
                                 {' '}with{' '}
                                 <WordFlipper
-                                    words={["VBA", "ReactJS", "Python", "OpenAI"]}
+                                    words={["Python", "ReactJS", "NextJS", "OpenAI", "VBA"]}
                                     interval={3000}
                                     textColor="text-rose-500"
                                     fontSize="text-3xl"
