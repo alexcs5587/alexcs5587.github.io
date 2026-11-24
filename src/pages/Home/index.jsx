@@ -44,12 +44,12 @@ function Home() {
                             </span>.
                         </h2>
                         <p className="text-lg md:text-xl">
-                            I am an in-house developer with 3+ years of
+                            I am an Assistant IT Manager with 6+ years of
                             experience in developing applications
                             <span className="whitespace-nowrap">
                                 {' '}with{' '}
                                 <WordFlipper
-                                    words={["Python", "ReactJS", "NextJS", "OpenAI", "VBA"]}
+                                    words={["Java", "Spring Boot", "React", "Python", "AI"]}
                                     interval={3000}
                                     textColor="text-rose-500"
                                     fontSize="text-3xl"

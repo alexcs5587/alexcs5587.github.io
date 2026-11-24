@@ -1,9 +1,22 @@
 const experienceData = [
     {
+        company: "The Education University of Hong Kong",
+        companyTranslation: "香港教育大學",
+        position: "Assistant IT Manager",
+        duration: "Mar 2025 - Present",
+        responsibilities: [
+            "Spearhead a major full-stack revamp of the university-wide online application platform using Java (Spring Boot) and React/TypeScript—modernizing legacy systems to handle rapidly growing applicant volumes, streamline end-to-end application and payment journeys, and accelerate staff processing efficiency",
+            "Partner with stakeholders to gather requirements, manage project timelines, break down and assign tasks across developers, and oversee code reviews and releases",
+            "Architect shared backend microservices, reporting engines, and scheduled batch processing systems integrated with enterprise Oracle databases, legacy administrative portals, and SSO",
+            "Integrate AI and OCR capabilities into student admission and visa management workflows to automate qualification verification, identity matching, and document data extraction",
+            "Provide ongoing production support, system maintenance, and troubleshooting for mission-critical student information systems to ensure high availability and smooth daily operations",
+        ],
+    },
+    {
         company: "Central Business Information Limited",
         companyTranslation: "滙華商業資訊有限公司",
         position: "Analyst Programmer",
-        duration: "Dec 2020 - Present",
+        duration: "Dec 2020 - Mar 2025",
         responsibilities: [
             "Build robotic process automation systems to reduce over 90% manual operations and significantly increase productivity",
             "Design and develop databases to efficiently store and access large datasets for business intelligence and analytics",

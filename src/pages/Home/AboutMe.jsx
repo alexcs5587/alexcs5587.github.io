@@ -16,10 +16,10 @@ function AboutMe() {
                         <div className="w-24 h-1 mx-auto mt-4 rounded-full bg-rose-500 lg:mb-12"></div>
                         <div className="mt-5 mx-5 lg:text-[0.9rem] lg:text-base text-left text-gray-500">
                             <p className="">
-                                As a results-driven developer with 3+ years of experience, I specialize in utilizing the latest technologies to enhance business processes and drive efficiency. Throughout my career, I have designed and developed various AI-powered, data-driven applications that have optimized operations, improved decision making and saved organizations significant time and costs.
+                                As a results-driven Technical Lead and Assistant IT Manager with 6+ years of experience, I specialize in architecting modern enterprise platforms and AI-powered solutions that transform complex business operations. Throughout my career, I have designed and delivered over 15 business-critical applications—including leading the full-stack revamp of high-volume university admission ecosystems, intelligent document verification, and process automation systems that scale with growing demand and save organizations significant time and costs.
                             </p>
                             <p className="mt-8">
-                                In my current role, I supervise a small team of developers and am responsible for the full development lifecycle. Through active engagement with stakeholders and mentoring junior developers, I ensure projects are on track and meet requirements. With over 3 years of hands-on experience leading the successful delivery of more than 10 business-critical applications, I have demonstrated an ability to strategically design and flawlessly execute projects that drive real value.
+                                Experienced in end-to-end project and team management across the full SDLC, I work closely with stakeholders to gather requirements, define project roadmaps, break down complex features into actionable tasks for developers, and manage timelines through to on-schedule release. Combining strategic planning with hands-on execution in Java (Spring Boot / JBoss EAP), React/TypeScript, Python, and Oracle Database—alongside rigorous code reviews, mentoring, and reliable production support—I ensure multi-system initiatives are delivered and maintained with exceptional stability and speed.
                             </p>
                         </div>
                     </div>
